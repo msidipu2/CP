@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+// P - Shape2
+
+
+int main() {
+    
+    int n; cin>>n;
+
+    for (int i = n; i > 0; i--)
+    {
+        for (int j = 1; j <= i; j++)
+        {
+            cout<<"*";
+        }
+        cout<<"\n";
+    }
+    
+    
+    return 0;
+}
